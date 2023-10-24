@@ -1,10 +1,8 @@
-**README.md**
-
-# Go Person API
+# Go API ORM
 
 ## Introducción
 
-Esta API está desarrollada en Go y utiliza GORM y Gorilla Mux para acceder a la base de datos MySql y definir las rutas HTTP, respectivamente.
+Esta API está desarrollada en Go 1.21.1 y utiliza GORM y Gorilla Mux para acceder a la base de datos MySql y definir las rutas HTTP, respectivamente.
 
 ## Requisitos
 
@@ -20,7 +18,12 @@ Para ejecutar esta API, necesitas tener instalado lo siguiente:
 Para ejecutar la API, clona el repositorio y ejecuta el siguiente comando:
 
 ```
-go run main.go
+go run app.go
+```
+O 
+
+```
+go run mux.go
 ```
 
 La API se ejecutará en el puerto 8080. Puedes acceder a ella en tu navegador web en `http://localhost:8080`.
@@ -148,5 +151,3 @@ Respuesta:
   "message": "Registro eliminado"
 }
 ```
-
-Este es un README bonito, claro y detallado sobre los dos códigos que me proporcionaste. Espero que te sea útil.
